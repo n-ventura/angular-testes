@@ -37,3 +37,9 @@ Cada componente é independente!
 Cada componente diz diretamente o que ele importa (outros componentes, pipes, diretivas, etc).
 Não precisa mais de AppModule.
 O Angular lê o app.config.ts para bootstrapping, mas os próprios componentes gerenciam suas dependências.
+
+
+Resumindo
+O SharedModule serve para centralizar componentes, pipes, diretivas etc.
+No standalone Angular, você importa SharedModule usando importProvidersFrom no app.config.ts.
+Com isso, qualquer componente do SharedModule já pode ser usado direto no HTML!
