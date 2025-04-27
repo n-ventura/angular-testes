@@ -67,6 +67,10 @@
               "buildTarget": "angular-testes:build:development"
             }
           },
+          "options": {
+            "port": 63126,
+            "open": false
+          },
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
